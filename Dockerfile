@@ -6,4 +6,5 @@ WORKDIR /usr/src/app
 COPY package*.JSON ./
 
 COPY . .
+EXPOSE 3000
 CMD [ "node", "index.js"]
